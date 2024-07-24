@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #161616;
+}
+
+header {
+    margin-top: 180px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 48px;
+    color: #DBCD08;
+}
+
+
+
+form {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+input,
+button {
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #5c5c5c;
+    color: #fff;
+    text-decoration: solid;
+    border: none;
+    border-radius: 5px;
+    text-shadow: -1px -1px 0px #000000;
+}
+
+button:hover {
+    background-color: #5dfc78;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+ul li {
+    cursor: pointer;
+    font-size: 24px;
+    color: #DBCD08;
+    text-transform: uppercase;
+}
+
+
+ul#lista-de-tarefas li.completed {
+    text-decoration: line-through;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#limpar-tarefas:hover {
+    background-color: #DB2C2F;
+}
